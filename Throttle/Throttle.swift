@@ -15,6 +15,9 @@ class Throttle {
     private let queue: DispatchQueue
     private let minimumDelay: TimeInterval
     
+    /// Takes `minumumDelay`, and `queue` parameter.
+    /// - Parameter minimumDelay: The given window of time by the user.
+    /// - Parameter queue: It's `main` queue by default, but you can change it if you want.
     init(minimumDelay: TimeInterval, queue: DispatchQueue = DispatchQueue.main) {
         self.minimumDelay = minimumDelay
         self.queue = queue

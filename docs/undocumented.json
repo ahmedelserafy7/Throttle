@@ -141,13 +141,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/elser_10/Desktop/Throttle/Throttle/Throttle.swift",
-      "line": 18,
-      "symbol": "Throttle.init(minimumDelay:queue:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
       "line": 11,
       "symbol": "ViewController",
