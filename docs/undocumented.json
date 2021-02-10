@@ -1,0 +1,201 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/AppDelegate.swift",
+      "line": 23,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/AppDelegate.swift",
+      "line": 29,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 11,
+      "symbol": "ContainerView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 13,
+      "symbol": "ContainerView.notificationLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 26,
+      "symbol": "ContainerView.exitImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 35,
+      "symbol": "ContainerView.handleExit()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 41,
+      "symbol": "ContainerView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 46,
+      "symbol": "ContainerView.setupViews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift",
+      "line": 64,
+      "symbol": "ContainerView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 11,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 13,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 16,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 23,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 30,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 35,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 40,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift",
+      "line": 45,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/Throttle.swift",
+      "line": 11,
+      "symbol": "Throttle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/Throttle.swift",
+      "line": 18,
+      "symbol": "Throttle.init(minimumDelay:queue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 13,
+      "symbol": "ViewController.checkOutButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 30,
+      "symbol": "ViewController.throttler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 31,
+      "symbol": "ViewController.handleCheckOut()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 37,
+      "symbol": "ViewController.setupNotificationMessage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 63,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift",
+      "line": 71,
+      "symbol": "ViewController.setupViews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/elser_10/Desktop/Throttle"
+}

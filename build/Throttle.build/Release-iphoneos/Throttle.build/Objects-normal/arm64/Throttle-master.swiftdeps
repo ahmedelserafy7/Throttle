@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "38cf82ae3d57cbdd34bffbb13ed3569a"
+build_time: [1612937884, 147604000]
+inputs:
+  "/Users/elser_10/Desktop/Throttle/Throttle/ContainerView.swift": [9223372036, 854775807]
+  "/Users/elser_10/Desktop/Throttle/Throttle/ViewController.swift": [9223372036, 854775807]
+  "/Users/elser_10/Desktop/Throttle/Throttle/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/elser_10/Desktop/Throttle/Throttle/SceneDelegate.swift": [9223372036, 854775807]
+  "/Users/elser_10/Desktop/Throttle/Throttle/Throttle.swift": [9223372036, 854775807]
