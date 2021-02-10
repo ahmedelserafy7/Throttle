@@ -11,7 +11,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 **With Throttle**
 
-- In Effect there is a hodgepodge of different patterns you can use to execute your function for once:
+In Effect there is a hodgepodge of different patterns you can use to execute your function for once like:
 * [`dispatch_once`](#`dispatch_once`)
 * [Throttle](#throttle)
 
