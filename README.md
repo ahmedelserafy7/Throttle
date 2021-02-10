@@ -40,7 +40,7 @@ Once the `dispatch_once` block has completed, then all three threads able to con
 
 ### Note: 
 - In that window of time your app is running, the function will be executed for once. So it's not the best option to use for user experience design.
-- If you're looking for getting your user experience desing stable and better, you can use **Throttle**.
+- If you're looking for getting your user experience design stable and better, you can use **Throttle**.
 
 ## Throttle
  - To throttle a function means to ensure the function is called at most once in a specified time period.
