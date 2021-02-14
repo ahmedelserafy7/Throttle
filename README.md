@@ -12,40 +12,49 @@
 **With Throttle**
 
 In effect, there is a hodgepodge of different patterns you can use to execute your function for once like:
-* [`dispatch_once`](#`dispatch_once`)
+* [dispatch_once](#dispatch_once)
 * [Throttle](#throttle)
 
 ## `dispatch_once`
 
 `dispatch_once` is one of the solutions that you can use when you have more than one thread kicks off its function at the same time. so in order to solve 
 the repetition that can occur you can use `dispatch_once`.
-Now you're waiting the `dispatch_once` code. Unfortunately it's deprecated, but likely you can use `lazy var` instead.
+Now you're waiting for the `dispatch_once` code. Unfortunately it's deprecated, but likely you can use `lazy var` instead.
 
 `lazy var` or nominally `dispatch_once` used to execute your operation once.
+
+<blockquote>
+The lazy initializer for a global variable (also for static members of structs and enums) is run the first time that global is accessed, and is launched as dispatch_once to make sure that the initialization is atomic. This enables a cool way to use dispatch_once in your code: just declare a global variable with an initializer and mark it private.
+</blockquote>
+
+From [here](https://developer.apple.com/swift/blog/?id=7)
+
+## How it works
+
 The initial setup phase wrapped in the `dispatch_once` block.
 So when the second thread starts, it reaches the `dispatch_once` block and it's prevented from continuing because that section of code is currently running, 
 It just like let dispatch block's thread 2 until `dispatch_once` has been completed in thread 1.
 When thread 3 comes along, it too blocks until the thread one has completed the `dispatch_once` block.
 Once the `dispatch_once` block has completed, then all three threads able to continue with the reminder of the function.
 
-## How to create it:
+## How to create it
      lazy var showOnce: Void = {
         return setupNotificationMessage()
      }()
 
-## Usage:
+## Usage
      @objc func handleCheckOut() {
         return showOnce
     }
 
-### Note: 
-- In that window of time your app is running, the function will be executed for once. So it's not the best option to use for user experience design.
+### Note
+- In the window of lifetime running your app, the function will be executed for once. So it's not the best option to use for user experience design.
 - If you're looking for getting your user experience design stable and better, you can use **Throttle**.
 
 ## Throttle
  - To throttle a function means to ensure the function is called at most once in a specified time period.
 
-## A simple way of creating throttle:
+## A simple way of creating throttle
      class Throttle {
 
       var workItem = DispatchWorkItem(block: {})
@@ -63,7 +72,7 @@ Once the `dispatch_once` block has completed, then all three threads able to con
       }
      }
 
-## Usage:
+## Usage
     var throttler = Throttle()
     @objc func handleCheckOut() {
         throttler.throttle({ [weak self] in
