@@ -18,7 +18,7 @@ In effect, there is a hodgepodge of different patterns you can use to execute yo
 ## `dispatch_once`
 
 `dispatch_once` is one of the solutions that you can use when you have more than one thread kicks off its function at the same time. so in order to solve 
-the repetition that can occur you can use `dispatch_once`.
+the repetition that could occur you can use `dispatch_once`.
 Now you're waiting for the `dispatch_once` code. Unfortunately it's deprecated, but likely you can use `lazy var` instead.
 
 `lazy var` or nominally `dispatch_once` used to execute your operation once.
