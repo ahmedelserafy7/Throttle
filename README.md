@@ -38,14 +38,18 @@ When thread 3 comes along, it too blocks until the thread one has completed the 
 Once the `dispatch_once` block has completed, then all three threads able to continue with the reminder of the function.
 
 ## How to create it
-     lazy var showOnce: Void = {
-        return setupNotificationMessage()
-     }()
+```swift
+lazy var showOnce: Void = {
+   return setupNotificationMessage()
+}()
+```
 
 ## Usage
-     @objc func handleCheckOut() {
-        return showOnce
-    }
+```swift
+@objc func handleCheckOut() {
+   return showOnce
+}
+```
 
 ### Note
 - In that window of time your app is running, the function will be executed for once. So it's not the best option to use for user experience design.
@@ -55,30 +59,33 @@ Once the `dispatch_once` block has completed, then all three threads able to con
  - To throttle a function means to ensure the function is called at most once in a specified time period.
 
 ## A simple way of creating throttle
-     class Throttle {
+```swift
+ class Throttle {
 
-      var workItem = DispatchWorkItem(block: {})
+ var workItem = DispatchWorkItem(block: {})
 
-      func throttle(_ block: @escaping ()->()) {
+ func throttle(_ block: @escaping ()->()) {
 
-      // Cancel any operation comes along, and initializes the workItem to execute the block of code after two seconds.
-      workItem.cancel()
-      workItem = DispatchWorkItem {
-        block()
-      }
+ // Cancel any operation comes along, and initializes the workItem to execute the block of code after two seconds.
+ workItem.cancel()
+ workItem = DispatchWorkItem {
+   block()
+ }
       
-      // After two seconds we'll start executing the workItem.
-      DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: workItem)
-      }
-     }
-
+ // After two seconds we'll start executing the workItem.
+ DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: workItem)
+ }
+}
+```
 ## Usage
-    var throttler = Throttle()
-    @objc func handleCheckOut() {
-        throttler.throttle({ [weak self] in
-            self?.setupNotificationMessage()
-        })
-    }
+```swift
+var throttler = Throttle()
+@objc func handleCheckOut() {
+    throttler.throttle({ [weak self] in
+        self?.setupNotificationMessage()
+    })
+}
+```    
 
 - Check out the annotation of [`throttle`](https://github.com/ahmedelserafy7/Throttle/blob/master/Throttle/Throttle.swift) function to manage to grasp the main points better.
 ## Requirements
